@@ -15,6 +15,7 @@
 @property (strong, nonatomic) UIColor *labelTextColorInsideSlider; // defaults to black
 @property (strong, nonatomic) UIColor *labelTextColorOutsideSlider; // defaults to white
 @property (strong, nonatomic) UIFont *font; // default is nil
+@property (nonatomic) NSInteger selectedIndex;
 @property (nonatomic) CGFloat cornerRadius; // defaults to 12
 @property (nonatomic) CGFloat sliderOffset; // slider offset from background, top, bottom, left, right
 
